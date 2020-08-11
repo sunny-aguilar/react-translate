@@ -17,9 +17,7 @@ class App extends React.Component {
         <LanguageSelector onLanguageChange={this.onLanguageChange} />
 
         <ColorContext.Provider value="red">
-          <LanguageContext.Provider value={this.state.language}>
-            <UserCreate />
-          </LanguageContext.Provider>
+          <UserCreate />
         </ColorContext.Provider>
       </div>
     );
