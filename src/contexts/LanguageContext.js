@@ -11,6 +11,8 @@ class LanguageStore extends React.Component {
   };
 
   render() {
-    return ();
+    return (
+      <Context.Provider value={}
+    );
   }
 }
