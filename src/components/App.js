@@ -9,7 +9,7 @@ class App extends React.Component {
     return (
       <div className="ui container">
         <LanguageStore>
-          <LanguageSelector onLanguageChange={this.onLanguageChange} />
+          <LanguageSelector />
 
           <ColorContext.Provider value="red">
             <UserCreate />
