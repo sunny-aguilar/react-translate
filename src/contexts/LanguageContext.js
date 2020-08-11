@@ -1,4 +1,10 @@
 import React from "react";
 
 // only this is needed to create a context object (the data pipe)
-export default React.createContext("english");
+const Context = React.createContext("english");
+
+class LanguageStore extends React.Component {
+  render() {
+    
+  }
+}
