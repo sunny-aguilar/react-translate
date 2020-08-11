@@ -12,7 +12,9 @@ class LanguageStore extends React.Component {
 
   render() {
     return (
-      <Context.Provider value={{ ...this.state }}
+      <Context.Provider value={{ ...this.state, onLanguageChange }}>
+        
+      </Context.Provider>
     );
   }
 }
