@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react";      // load react library
 import Field from "./Field";
 import Button from "./Button";
 
