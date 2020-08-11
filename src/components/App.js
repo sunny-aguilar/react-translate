@@ -5,9 +5,6 @@ import ColorContext from "../contexts/ColorContext";
 import LanguageSelector from "./LanguageSelector";
 
 class App extends React.Component {
-  onLanguageChange = (language) => {
-    this.setState({ language: language });
-  }
 
   render() {
     return (
