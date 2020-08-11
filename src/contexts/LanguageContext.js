@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react";                                        // load react library
 
 // only this is needed to create a context object (the data pipe)
 const Context = React.createContext("english");
