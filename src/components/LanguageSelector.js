@@ -5,6 +5,8 @@ class LangugageSelector extends React.Component {
   static contextType = LanguageContext;
 
   render() {
+    console.log(this.context);
+
     return (
       <div>
         Select a language:
