@@ -7,7 +7,9 @@ class Button extends React.Component {
   // static contextType = LanguageContext;
 
   render() {
-    // const text = this.context === "english" ? "Submit" : "Voorleggen";
+    renderSubmit(value) {
+      return value === "english" ? "Submit" : "Voorleggen";
+    }
     return (
       <ColorContext.Consumer>
         {(color) =>
