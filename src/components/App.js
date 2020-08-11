@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react"                                   // load react library
 import UserCreate from "./UserCreate";
 import { LanguageStore } from "../contexts/LanguageContext";
 import ColorContext from "../contexts/ColorContext";
