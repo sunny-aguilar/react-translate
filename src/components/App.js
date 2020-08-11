@@ -14,11 +14,13 @@ class App extends React.Component {
   render() {
     return (
       <div className="ui container">
-        <LanguageSelector onLanguageChange={this.onLanguageChange} />
+        <LanguageStore>
+          <LanguageSelector onLanguageChange={this.onLanguageChange} />
 
-        <ColorContext.Provider value="red">
-          <UserCreate />
-        </ColorContext.Provider>
+          <ColorContext.Provider value="red">
+            <UserCreate />
+          </ColorContext.Provider>
+        </LanguageStore>
       </div>
     );
   }
