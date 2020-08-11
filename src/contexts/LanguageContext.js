@@ -11,6 +11,6 @@ class LanguageStore extends React.Component {
   };
 
   render() {
-
+    return ();
   }
 }
